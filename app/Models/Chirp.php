@@ -16,7 +16,7 @@ class Chirp extends Model
     ];
 
     protected $dispatchesEvents = [
-        'creadted' => ChirpCreated::class
+        'created' => ChirpCreated::class
     ];
 
     public function user(): BelongsTo
